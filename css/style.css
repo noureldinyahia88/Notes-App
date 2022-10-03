@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Kanit:wght@300&family=Open+Sans&display=swap');
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+}
+body {
+    background: #1e130c;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 100vh;
+    padding-top: 3rem;
+}
+.add{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #503101;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.note{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 19px 38px, rgba(0, 0, 0, 0.1) 0px 15px 12px;
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+}
+.tools{
+    background-color: #503101;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+textarea{
+    outline: none;
+    font-size: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
+.main{
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
